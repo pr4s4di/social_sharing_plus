@@ -58,7 +58,7 @@ class SocialSharingPlusPlugin : FlutterPlugin, MethodCallHandler {
                         listOf(
                                 FileProvider.getUriForFile(
                                         context,
-                                        "${context.packageName}.fileprovider",
+                                        "${context.packageName}.provider",
                                         file
                                 )
                         )
@@ -70,7 +70,7 @@ class SocialSharingPlusPlugin : FlutterPlugin, MethodCallHandler {
                                 val file = File(mediaUriString)
                                 FileProvider.getUriForFile(
                                         context,
-                                        "${context.packageName}.fileprovider",
+                                        "${context.packageName}.provider",
                                         file
                                 )
                             } else {
